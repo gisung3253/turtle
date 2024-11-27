@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>커뮤니티</title>
+  <link rel="stylesheet" href="/main/main2.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>커뮤니티</h2>
+    </header>
+
+    <div class="post">
+      <p><strong>거북이 친구</strong></p>
+      <p>11일 동안 10번씩 하루에 한 번씩 어휘적으로 듣기 연습을 해서, 이제는 완전히 헷갈리지 않고 들을 수 있게 되었습니다.</p>
+      <p class="info">@Turtle, 12/20</p>
+      <div class="actions">
+        <span>👍 6</span>
+        <span>💬 2</span>
+      </div>
+    </div>
+
+    <div class="post">
+      <p><strong>행복이</strong></p>
+      <p>오늘은 새로운 어휘를 배웠습니다. "뱅"이란 말은 무엇을 의미할까요?</p>
+      <p class="info">@Happy, 12/21</p>
+      <div class="actions">
+        <span>👍 8</span>
+        <span>💬 6</span>
+      </div>
+    </div>
+
+    <div class="post">
+      <p><strong>김하나</strong></p>
+      <p>아이디어를 제시하는 것은 어렵지 않지만, 그것을 실행하기 위해서는 많은 고민과 계획이 필요합니다. 기업가정신을 갖고 뜻을 세우고 행동으로 옮기는게 중요한 것 같습니다.</p>
+      <p class="info">@Kim hana, 12/20</p>
+      <div class="actions">
+        <span>👍 14</span>
+        <span>💬 12</span>
+      </div>
+    </div>
+
+    <div class="post">
+      <p><strong>스마일</strong></p>
+      <p>이거 먹어도 되나요?</p>
+      <p class="info">@Smile, 12/21</p>
+      <div class="actions">
+        <span>👍 12</span>
+        <span>💬 4</span>
+      </div>
+    </div>
+
+    <button class="write-btn">글 쓰기 및 질문하기</button>
+  </div>
+
+  <!-- 하단 네비게이션 바 -->
+  <div class="navbar">
+    <a href="/main/main1" class="<%= page === 'home' ? 'active' : '' %>">홈</a>
+    <a href="/main/main2" class="<%= page === 'community' ? 'active' : '' %>">커뮤니티</a>
+    <a href="/main/main3" class="<%= page === 'profile' ? 'active' : '' %>">프로필</a>
+  </div>
+  
+  
+  
+</body>
+</html>

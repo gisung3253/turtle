@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>진단 테스트</title>
+  <link rel="stylesheet" href="/main/main3.css">
+</head>
+<body>
+  <div class="container">
+    <h2>진단 테스트</h2>
+    <div class="test-card">
+      <div class="test-description">
+        <h3>ADHD 진단 테스트</h3>
+        <p>주의력 결핍 과잉행동장애를 평가하는 테스트입니다.</p>
+        <button>테스트 시작</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 하단 네비게이션 바 -->
+  <div class="navbar">
+    <a href="/main/main1" class="<%= page === 'home' ? 'active' : '' %>">홈</a>
+    <a href="/main/main2" class="<%= page === 'community' ? 'active' : '' %>">커뮤니티</a>
+    <a href="/main/main3" class="<%= page === 'profile' ? 'active' : '' %>">프로필</a>
+  </div>
+  
+  </div>
+</body>
+</html>
